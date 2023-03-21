@@ -1,0 +1,40 @@
+﻿@page
+@model burger_market.Pages.MenuBurgersModel
+@{
+}
+
+<html>
+    <head>
+        <title>
+            Menu
+        </title>
+        <link rel="stylesheet" href="~/css/style.css" />
+    </head>
+    <body>
+        <a asp-page="Index" class="logo-lien"> <img src="~/image/Burger1.png"  class="logo"  /></a>
+        <h1>Menu de Burgers</h1>
+       
+        <div class="items">
+        @foreach (var item in Model.Burger) {
+        
+         <div class="item">
+             <span class="item-nom" >@item.nom</span>
+             <span class="item-nom prix">  @String.Format("{0:0.00}",item.prix) €</span> <br>
+             <p class="ingredient">@item.ingredients </p>
+             @if(@item.vegetarienne){
+            <p class="veggie"
+                style="color : black ; font-size : 18px; margin-left: 20px; background-color : #ffbd59; display : inline;font-family : sans-serif;padding : 2px 20px;border-radius:10px;">
+                Végétarienne</p>
+            }
+ 
+         </div>
+         
+            
+            
+       
+       
+        }
+        </div>
+    </body>
+</html>
+

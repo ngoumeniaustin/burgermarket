@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Burger Market";
+}
+
+<html>
+    <head>
+        <title>
+            Home
+           
+        </title>
+          <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    </head>
+    <body class="home-page">
+        
+       <div class="contain">
+         <img src="~/image/Burger1.png"  class="logo"  />
+         <p class="voir-menu"><a asp-page="MenuBurgers" class="menu-lien" >Voir le menu</a></p>
+        </div>
+
+    </body>
+</html>

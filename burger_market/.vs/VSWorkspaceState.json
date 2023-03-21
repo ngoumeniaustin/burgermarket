@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\burger_market",
+    "\\burger_market\\Data",
+    "\\burger_market\\Models",
+    "\\burger_market\\Pages",
+    "\\burger_market\\Pages\\Admin",
+    "\\burger_market\\Pages\\Admin\\Burgers",
+    "\\burger_market\\Pages\\Shared",
+    "\\burger_market\\wwwroot",
+    "\\burger_market\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\burger_market\\Pages\\Admin\\Burgers\\Create.cshtml.cs",
+  "PreviewInSolutionExplorer": false
+}
